@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Tiro+Telugu:ital@1&display=swap');
+
+* {
+    margin: 0;
+}
+header {
+    background-color: #8EA8C3; 
+    padding: 1em;
+}
+
+h2 {
+    color: #161925;
+    font-family: 'Tiro Telugu', serif;
+    display: inline-block;
+    margin-left: 79% ;  
+}
+
+#icon-profile {
+    width: 70px;
+    border-radius: 50% 25%;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+#About {
+    background-color: #406E8E;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.8em;
+    
+}
+
+

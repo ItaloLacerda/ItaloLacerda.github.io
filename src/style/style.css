@@ -1,35 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Tiro+Telugu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Red+Hat+Display:ital,wght@1,600&display=swap');
 
 * {
     margin: 0;
 }
+
 header {
-    background-color: #8EA8C3; 
-    padding: 1em;
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    border-bottom: 2.8px solid #FCA311;
+    z-index: 2;
+
 }
 
-h2 {
-    color: #161925;
-    font-family: 'Tiro Telugu', serif;
-    display: inline-block;
-    margin-left: 79% ;  
+footer {
+    background-color: #000000;
+    position: absolute;
+    bottom: -595px;
+    width: 100%;
+    height: 120px;
+    border-top: 2px solid #FCA311;
+    z-index: 2;
 }
 
-#icon-profile {
-    width: 70px;
-    border-radius: 50% 25%;
-    vertical-align: middle;
-    margin-left: 20px;
-}
+h1 {
+    color: #E5E5E5;
+    text-align: center;
+    margin-top: 24px;
+    font-family: 'Red Hat Display', sans-serif;
 
-#About {
-    background-color: #406E8E;
+
 }
 
 h3 {
+    color: #E5E5E5;
     text-align: center;
-    font-size: 1.8em;
-    
+    margin-top: 40px;
+    font-size: 2.5em;
+    font-family: 'Red Hat Display', sans-serif;
+
 }
 
+section {
+    position: absolute;
 
+}
+
+.icon-profile {
+    border-radius: 50%;
+    width: 90px;
+    position: absolute;
+    top: 12px;
+    left: 5%;
+    border: 2.5px solid #FCA311;
+
+}
+
+.section1 {
+    top: 121px;
+    background-color: #14213D;
+    height: 400px;
+    text-align: center;
+}
+
+.section1 p {
+    color: #E5E5E5;
+    font-size: 1.4em;
+    margin: 70px 200px;
+}
+
+.section2 {
+    top: 521px;
+    height: 400px;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.section2 h3 {
+    color: #14213D;
+}
+
+.section3 {
+    top: 922px;
+    height: 400px;
+    width: 100%;
+    background-color: #14213D;
+}
